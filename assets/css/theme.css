@@ -1,13 +1,15 @@
-:root{
+/* Currently This Code Is Not Working In Production It Only Work On Local But In Local Having Some Bug & Issue. So, This Code And This File Code Is MErged On the Main CSS File. */
+
+/* :root{
     --theme-color: rgb(40, 92, 247);
 
 
-    /* color set for copy 
+    color set for copy 
     1. rgb(40, 92, 247) --> Blue
     2. rgb(234, 19, 19) --> Red
     3. rgb(11, 243, 11) --> Green
     4. rgb(204, 204, 2) --> Yellow
-    */
+   
 
 }
 
@@ -169,4 +171,4 @@ a {
 
 .theme a, svg{
     color: var(--theme-color);
-}
+} */

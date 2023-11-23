@@ -8,12 +8,14 @@ body {
 }
 
 a {
-  color: #ed8051;
+  /* color: #ed8051; */
+  color: var(--theme-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: #ed7606;
+  /* color: #ed7606; */
+  color: var(--theme-color);
   text-decoration: none;
 }
 
@@ -26,6 +28,30 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/* Theme File Merged In Main CSS File */
+
+/* Theme Changing Code
+
+    /* color set for copy 
+    1. rgb(40, 92, 247) --> Blue
+    2. rgb(234, 19, 19) --> Red
+    3. rgb(11, 243, 11) --> Green
+    4. rgb(204, 204, 2) --> Yellow
+    */
+
+    :root{
+      --theme-color: rgb(40, 92, 247);
+    }
+
+    /* Extra CSS Code */
+    .theme a, svg{
+      color: var(--theme-color);
+  }
+
+  .heading h2{
+    color: var(--theme-color);
+  }
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -36,7 +62,8 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ff5e00;
+  /* background: #ff5e00; */
+  background: var(--theme-color);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -50,7 +77,8 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #e36206;
+  /* background: #e36206; */
+  background: var(--theme-color);
   color: #fff;
 }
 
@@ -78,7 +106,8 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #ff8b64;
+  /* border: 6px solid #ff8b64; */
+  border: 6px solid var(--theme-color);
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -161,7 +190,8 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #ff8400;
+  /* color: #ff8400; */
+  color: var(--theme-color);
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -182,7 +212,8 @@ h6 {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: #ff8800;
+  /* color: #ff8800; */
+  color: var(--theme-color);
 }
 
 @media (min-width: 992px) {
@@ -204,7 +235,8 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #fc9b00;
+  /* background: #fc9b00; */
+  background: var(--theme-color);
 }
 
 .nav-menu a:hover span,
@@ -245,7 +277,8 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #f99d5b;
+  /* color: #f99d5b; */
+  color: var(--theme-color);
 }
 
 .mobile-nav-active {
@@ -258,7 +291,8 @@ h6 {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #ec7615;
+  /* background-color: #ec7615; */
+  background-color: var(--theme-color);
 }
 
 /*--------------------------------------------------------------
@@ -297,14 +331,16 @@ h6 {
 }
 
 #hero p {
-  color: #f5985a;
+  /* color: #f5985a; */
+  color: var(--theme-color);
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #f39950;
+  /* color: #f39950; */
+  color: var(--theme-color);
   letter-spacing: 1px;
 }
 
@@ -322,7 +358,8 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #fa7a2f;
+  /* color: #fa7a2f; */
+  color: var(--theme-color);
 }
 
 @media (max-width: 992px) {
@@ -362,7 +399,8 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #fbae2a;
+  /* color: #fbae2a; */
+  color: var(--theme-color);
 }
 
 .section-title h2::before {
@@ -382,7 +420,8 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #ff9215;
+  /* background: #ff9215; */
+  background: var(--theme-color);
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -401,7 +440,8 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #fda13f;
+  /* color: #fda13f; */
+  color: var(--theme-color);
 }
 
 .about .content ul {
@@ -422,7 +462,8 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #fcab38;
+  /* color: #fcab38; */
+  color: var(--theme-color);
   line-height: 0;
 }
 
@@ -447,7 +488,8 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #ff9101;
+  /* color: #ff9101; */
+  color: var(--theme-color);
 }
 
 .skills .progress .skill .val {
@@ -463,7 +505,8 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #ff9411;
+  /* background-color: #ff9411; */
+  background: var(--theme-color);
 }
 
 /*--------------------------------------------------------------
@@ -474,13 +517,15 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #ff9058;
+  /* color: #ff9058; */
+  color: var(--theme-color);
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #ff961e;
+  /* border-left: 2px solid #ff961e; */
+  border-left: 2px solid var(--theme-color);
   position: relative;
 }
 
@@ -490,7 +535,8 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #ff6435;
+  /* color: #ff6435; */
+  color: var(--theme-color);
   margin-bottom: 10px;
 }
 
@@ -524,7 +570,8 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #fd8419;
+  /* border: 2px solid #fd8419; */
+  border: 2px solid var(--theme-color);
 }
 /*--------------------------------------------------------------
 # Testimonials
@@ -558,13 +605,15 @@ section {
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #fda37a;
+  /* color: #fda37a; */
+  color: var(--theme-color);
   margin: 0 0 15px 0;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #fcae90;
+  /* color: #fcae90; */
+  color: var(--theme-color);
   font-size: 26px;
 }
 
@@ -596,11 +645,13 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ff9900;
+  /* border: 1px solid #ff9900; */
+  border: 1px solid var(--theme-color);
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ff7300;
+  /* background-color: #ff7300; */
+  background-color: var(--theme-color);
 }
 
 @media (min-width: 992px) {
@@ -619,7 +670,8 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #ff8d14;
+  /* color: #ff8d14; */
+  color: var(--theme-color);
   float: left;
   width: 44px;
   height: 44px;
@@ -636,14 +688,16 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #ff4800;
+  /* color: #ff4800; */
+  color: var(--theme-color);
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #f56a00;
+  /* color: #f56a00; */
+  color: var(--theme-color);
 }
 
 .contact .info .email,
@@ -654,7 +708,8 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #ff8b2d;
+  /* background: #ff8b2d; */
+  background: var(--theme-color);
   color: #fff;
 }
 
@@ -683,7 +738,8 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #ff753a;
+  /* background: #ff753a; */
+  background: var(--theme-color);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -703,7 +759,8 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #ff8000;
+  /* border: 3px solid #ff8000; */
+  border: 3px solid var(--theme-color);
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -725,7 +782,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ff7112;
+  /* background: #ff7112; */
+  background: var(--theme-color);
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -734,7 +792,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ff7620;
+  /* background: #ff7620; */
+  background: var(--theme-color);
 }
 
 @keyframes animate-loading {
@@ -781,7 +840,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ff8800;
+  /* background: #ff8800; */
+  background: var(--theme-color);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -794,7 +854,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #ff5900;
+  /* background: #ff5900; */
+  background: var(--theme-color);
   color: #fff;
   text-decoration: none;
 }
