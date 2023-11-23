@@ -1,0 +1,172 @@
+:root{
+    --theme-color: rgb(40, 92, 247);
+
+
+    /* color set for copy 
+    1. rgb(40, 92, 247) --> Blue
+    2. rgb(234, 19, 19) --> Red
+    3. rgb(11, 243, 11) --> Green
+    4. rgb(204, 204, 2) --> Yellow
+    */
+
+}
+
+a {
+    color: var(--theme-color);
+  }
+  
+  a:hover {
+    color: var(--theme-color);
+  }
+
+  .back-to-top{
+    background: var(--theme-color);
+  }
+
+  .back-to-top:hover{
+    background: var(--theme-color);
+  }
+
+  #preloader:before{
+    border: 6px solid var(--theme-color);
+  }
+
+.nav-menu a,
+.nav-menu a:focus{
+    color: var(--theme-color);
+}
+
+.nav-menu a span,
+.nav-menu a:focus span{
+    color: var(--theme-color);
+}
+
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover>a{
+    background: var(--theme-color);
+}
+
+.mobile-nav-active .mobile-nav-toggle{
+    background-color: var(--theme-color);
+}
+
+#hero p{
+    color: var(--theme-color);
+}
+
+#hero p span{
+    color: var(--theme-color);
+}
+
+#hero .social-links a:hover{
+    color: var(--theme-color);
+}
+
+.section-title h2{
+    color: var(--theme-color);
+}
+
+.section-title h2::after{
+    background: var(--theme-color);
+}
+
+.about .content h3{
+    color: var(--theme-color);
+}
+
+.about .content ul i{
+    color: var(--theme-color);
+}
+
+.skills .progress .skill{
+    color: var(--theme-color);
+}
+
+.skills .progress-bar{
+    background-color: var(--theme-color);
+}
+
+.resume .resume-title{
+    color: var(--theme-color);
+}
+
+.resume .resume-item{
+    border-left: 2px solid var(--theme-color);
+}
+
+.resume .resume-item h4{
+    color: var(--theme-color);
+}
+
+.resume .resume-item::before{
+    border: 2px solid var(--theme-color);
+}
+
+.testimonials .testimonial-item h4{
+    color: var(--theme-color);
+}
+
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right{
+    color: var(--theme-color);
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet{
+    border: 1px solid var(--theme-color);
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active{
+    background-color: var(--theme-color);
+}
+
+.contact .info i{
+    color: var(--theme-color);
+}
+
+.contact .info h4{
+    color: var(--theme-color);
+}
+
+.contact .info p{
+    color: var(--theme-color);
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i{
+    background: var(--theme-color);
+}
+
+.contact .php-email-form .error-message{
+    background: var(--theme-color);
+}
+
+.contact .php-email-form .sent-message{
+    background: var(--theme-color);
+}
+
+.contact .php-email-form .loading:before{
+    border: 3px solid var(--theme-color);
+}
+
+.contact .php-email-form button[type=submit]{
+    background: var(--theme-color);
+}
+
+.contact .php-email-form button[type=submit]:hover{
+    background: var(--theme-color);
+}
+
+#footer .social-links a{
+    background: var(--theme-color);
+}
+
+#footer .social-links a:hover{
+    background: var(--theme-color);
+}
+
+.theme a, svg{
+    color: var(--theme-color);
+}
