@@ -66,9 +66,9 @@ h6 {
     */
 
     :root{
-      --primary-color: rgb(0, 0, 255);
-      --secondary-color: rgb(255, 0, 0);
-      --tertairy-color: rgb(0, 255, 0);
+      --primary-color: rgb(0, 0, 0);
+      --secondary-color: rgb(0, 0, 0);
+      --tertairy-color: rgb(0, 0, 0);
     }
 
     /* Extra CSS Code */
