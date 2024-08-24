@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100);
+
+body {
+  background: #000000;
+  margin: 40px 50px;
+  color: #4af8f8;
+  font-family: "Raleway", cursive;
+  font-weight: 100;
+}
+h1 {
+  color: #4af8f8;
+  font-family: "Raleway", cursive;
+  font-weight: 100;
+  font-stretch: normal;
+  font-size: 5em;
+}
+a {
+  color: #4af8f8;
+  font-family: "Raleway", cursive;
+}
+.slider {
+  position: absolute;
+  width: 400px;
+  height: 22px;
+  margin-top: -30px;
+}
+.line {
+  position: absolute;
+  background: #4af8f8;
+  width: 310px;
+  height: 2px;
+}
+.break {
+  position: absolute;
+  background: #090909;
+  width: 6px;
+  height: 2px;
+}
+
+#para {
+  font-size: 2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.dot1 {
+  -webkit-animation: loading 2s infinite;
+  -moz-animation: loading 2s infinite;
+  -ms-animation: loading 2s infinite;
+  -o-animation: loading 2s infinite;
+  animation: loading 2s infinite;
+}
+.dot2 {
+  -webkit-animation: loading 2s 0.5s infinite;
+  -moz-animation: loading 2s 0.5s infinite;
+  -ms-animation: loading 2s 0.5s infinite;
+  -o-animation: loading 2s 0.5s infinite;
+  animation: loading 2s 0.5s infinite;
+}
+.dot3 {
+  -webkit-animation: loading 2s 1s infinite;
+  -moz-animation: loading 2s 1s infinite;
+  -ms-animation: loading 2s 1s infinite;
+  -o-animation: loading 2s 1s infinite;
+  animation: loading 2s 1s infinite;
+}
+
+@keyframes loading {
+  from {
+    left: 0;
+  }
+  to {
+    left: 400px;
+  }
+}
+@-moz-keyframes loading {
+  from {
+    left: 0;
+  }
+  to {
+    left: 400px;
+  }
+}
+@-webkit-keyframes loading {
+  from {
+    left: 0;
+  }
+  to {
+    left: 400px;
+  }
+}
+@-ms-keyframes loading {
+  from {
+    left: 0;
+  }
+  to {
+    left: 400px;
+  }
+}
+@-o-keyframes loading {
+  from {
+    left: 0;
+  }
+  to {
+    left: 400px;
+  }
+}
